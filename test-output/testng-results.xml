@@ -1,37 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="4" total="16" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-20T16:37:02 IST" name="Default suite" finished-at="2022-11-20T16:37:45 IST" duration-ms="42621">
+  <suite started-at="2022-11-20T21:08:02 IST" name="Suite" finished-at="2022-11-20T21:09:18 IST" duration-ms="75787">
     <groups>
+      <group name="skipFlowDate">
+        <method signature="LoginTests.selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" name="selectDate" class="tests.LoginTests"/>
+      </group> <!-- skipFlowDate -->
+      <group name="skipFlow">
+        <method signature="LoginTests.setCapabilties()[pri:1, instance:tests.LoginTests@dbf57b3]" name="setCapabilties" class="tests.LoginTests"/>
+        <method signature="LoginTests.selLanguage()[pri:2, instance:tests.LoginTests@dbf57b3]" name="selLanguage" class="tests.LoginTests"/>
+        <method signature="LoginTests.enterName()[pri:3, instance:tests.LoginTests@dbf57b3]" name="enterName" class="tests.LoginTests"/>
+        <method signature="LoginTests.selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" name="selectDate" class="tests.LoginTests"/>
+        <method signature="LoginTests.testForSKip()[pri:6, instance:tests.LoginTests@dbf57b3]" name="testForSKip" class="tests.LoginTests"/>
+        <method signature="LoginTests.clickOnPopUp()[pri:7, instance:tests.LoginTests@dbf57b3]" name="clickOnPopUp" class="tests.LoginTests"/>
+        <method signature="LoginTests.setCapabilties()[pri:1, instance:tests.LoginTests@4ec4f3a0]" name="setCapabilties" class="tests.LoginTests"/>
+        <method signature="LoginTests.selLanguage()[pri:2, instance:tests.LoginTests@4ec4f3a0]" name="selLanguage" class="tests.LoginTests"/>
+        <method signature="LoginTests.enterName()[pri:3, instance:tests.LoginTests@4ec4f3a0]" name="enterName" class="tests.LoginTests"/>
+        <method signature="LoginTests.clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" name="clickOnPopUp" class="tests.LoginTests"/>
+      </group> <!-- skipFlow -->
+      <group name="googleLoginFlow">
+        <method signature="LoginTests.setCapabilties()[pri:1, instance:tests.LoginTests@dbf57b3]" name="setCapabilties" class="tests.LoginTests"/>
+        <method signature="LoginTests.selLanguage()[pri:2, instance:tests.LoginTests@dbf57b3]" name="selLanguage" class="tests.LoginTests"/>
+        <method signature="LoginTests.enterName()[pri:3, instance:tests.LoginTests@dbf57b3]" name="enterName" class="tests.LoginTests"/>
+        <method signature="LoginTests.clickOnPopUp()[pri:7, instance:tests.LoginTests@dbf57b3]" name="clickOnPopUp" class="tests.LoginTests"/>
+        <method signature="LoginTests.setCapabilties()[pri:1, instance:tests.LoginTests@4ec4f3a0]" name="setCapabilties" class="tests.LoginTests"/>
+        <method signature="LoginTests.selLanguage()[pri:2, instance:tests.LoginTests@4ec4f3a0]" name="selLanguage" class="tests.LoginTests"/>
+        <method signature="LoginTests.enterName()[pri:3, instance:tests.LoginTests@4ec4f3a0]" name="enterName" class="tests.LoginTests"/>
+        <method signature="LoginTests.selectMonth()[pri:4, instance:tests.LoginTests@4ec4f3a0]" name="selectMonth" class="tests.LoginTests"/>
+        <method signature="LoginTests.signInWithGoogle()[pri:5, instance:tests.LoginTests@4ec4f3a0]" name="signInWithGoogle" class="tests.LoginTests"/>
+        <method signature="LoginTests.clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" name="clickOnPopUp" class="tests.LoginTests"/>
+      </group> <!-- googleLoginFlow -->
     </groups>
-    <test started-at="2022-11-20T16:37:02 IST" name="Default test" finished-at="2022-11-20T16:37:45 IST" duration-ms="42621">
-      <class name="tests.BaseClass">
-        <test-method signature="setCapabilties()[pri:1, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:02 IST" name="setCapabilties" finished-at="2022-11-20T16:37:20 IST" duration-ms="18513" status="PASS">
+    <test started-at="2022-11-20T21:08:02 IST" name="Login with skip flow" finished-at="2022-11-20T21:08:38 IST" duration-ms="35593">
+      <class name="tests.LoginTests">
+        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:02 IST" name="setCapabilties" finished-at="2022-11-20T21:08:21 IST" duration-ms="19151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCapabilties -->
-        <test-method signature="selLanguage()[pri:2, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:20 IST" name="selLanguage" finished-at="2022-11-20T16:37:22 IST" duration-ms="1421" status="PASS">
+        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:21 IST" name="selLanguage" finished-at="2022-11-20T21:08:23 IST" duration-ms="1694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selLanguage -->
-        <test-method signature="enterName()[pri:3, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:22 IST" name="enterName" finished-at="2022-11-20T16:37:26 IST" duration-ms="4597" status="PASS">
+        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:23 IST" name="enterName" finished-at="2022-11-20T21:08:28 IST" duration-ms="4900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method signature="selectMonth()[pri:4, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:26 IST" name="selectMonth" finished-at="2022-11-20T16:37:29 IST" duration-ms="2053" status="PASS">
+        <test-method signature="selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:28 IST" name="selectDate" finished-at="2022-11-20T21:08:33 IST" duration-ms="4652" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectMonth -->
-        <test-method signature="enterMobileLogin()[pri:5, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:29 IST" name="enterMobileLogin" finished-at="2022-11-20T16:37:36 IST" duration-ms="7820" status="PASS">
+        </test-method> <!-- selectDate -->
+        <test-method signature="testForSKip()[pri:6, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:33 IST" name="testForSKip" finished-at="2022-11-20T21:08:35 IST" duration-ms="2579" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterMobileLogin -->
-        <test-method signature="clickOnPopUp()[pri:6, instance:tests.BaseClass@4b5d6a01]" started-at="2022-11-20T16:37:36 IST" name="clickOnPopUp" finished-at="2022-11-20T16:37:45 IST" duration-ms="8154" status="PASS">
+        </test-method> <!-- testForSKip -->
+        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:35 IST" name="clickOnPopUp" finished-at="2022-11-20T21:08:38 IST" duration-ms="2456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPopUp -->
-      </class> <!-- tests.BaseClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login with skip flow -->
+    <test started-at="2022-11-20T21:08:38 IST" name="Login with Google flow" finished-at="2022-11-20T21:09:18 IST" duration-ms="40074">
+      <class name="tests.LoginTests">
+        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:38 IST" name="setCapabilties" finished-at="2022-11-20T21:08:56 IST" duration-ms="18034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilties -->
+        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:56 IST" name="selLanguage" finished-at="2022-11-20T21:08:57 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selLanguage -->
+        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:57 IST" name="enterName" finished-at="2022-11-20T21:09:01 IST" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterName -->
+        <test-method signature="selectMonth()[pri:4, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:01 IST" name="selectMonth" finished-at="2022-11-20T21:09:04 IST" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonth -->
+        <test-method signature="signInWithGoogle()[pri:5, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:04 IST" name="signInWithGoogle" finished-at="2022-11-20T21:09:08 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithGoogle -->
+        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:08 IST" name="clickOnPopUp" finished-at="2022-11-20T21:09:18 IST" duration-ms="9698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPopUp -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login with Google flow -->
+  </suite> <!-- Suite -->
 </testng-results>
