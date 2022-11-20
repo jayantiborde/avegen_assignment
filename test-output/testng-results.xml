@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="16" passed="12" failed="0" skipped="0">
+<testng-results ignored="4" total="16" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-20T21:08:02 IST" name="Suite" finished-at="2022-11-20T21:09:18 IST" duration-ms="75787">
+  <suite started-at="2022-11-20T21:35:13 IST" name="Suite" finished-at="2022-11-20T21:36:34 IST" duration-ms="80505">
     <groups>
       <group name="skipFlowDate">
         <method signature="LoginTests.selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" name="selectDate" class="tests.LoginTests"/>
@@ -32,57 +32,128 @@
         <method signature="LoginTests.clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" name="clickOnPopUp" class="tests.LoginTests"/>
       </group> <!-- googleLoginFlow -->
     </groups>
-    <test started-at="2022-11-20T21:08:02 IST" name="Login with skip flow" finished-at="2022-11-20T21:08:38 IST" duration-ms="35593">
+    <test started-at="2022-11-20T21:35:13 IST" name="Login with skip flow" finished-at="2022-11-20T21:35:53 IST" duration-ms="39805">
       <class name="tests.LoginTests">
-        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:02 IST" name="setCapabilties" finished-at="2022-11-20T21:08:21 IST" duration-ms="19151" status="PASS">
+        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:13 IST" name="setCapabilties" finished-at="2022-11-20T21:35:37 IST" duration-ms="23797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCapabilties -->
-        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:21 IST" name="selLanguage" finished-at="2022-11-20T21:08:23 IST" duration-ms="1694" status="PASS">
+        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:37 IST" name="selLanguage" finished-at="2022-11-20T21:35:38 IST" duration-ms="1461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selLanguage -->
-        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:23 IST" name="enterName" finished-at="2022-11-20T21:08:28 IST" duration-ms="4900" status="PASS">
+        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:38 IST" name="enterName" finished-at="2022-11-20T21:35:43 IST" duration-ms="4288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method signature="selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:28 IST" name="selectDate" finished-at="2022-11-20T21:08:33 IST" duration-ms="4652" status="PASS">
+        <test-method signature="selectDate()[pri:4, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:43 IST" name="selectDate" finished-at="2022-11-20T21:35:47 IST" duration-ms="4674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDate -->
-        <test-method signature="testForSKip()[pri:6, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:33 IST" name="testForSKip" finished-at="2022-11-20T21:08:35 IST" duration-ms="2579" status="PASS">
+        <test-method signature="testForSKip()[pri:6, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:47 IST" name="testForSKip" finished-at="2022-11-20T21:35:50 IST" duration-ms="2757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForSKip -->
-        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:08:35 IST" name="clickOnPopUp" finished-at="2022-11-20T21:08:38 IST" duration-ms="2456" status="PASS">
+        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@dbf57b3]" started-at="2022-11-20T21:35:50 IST" name="clickOnPopUp" finished-at="2022-11-20T21:35:53 IST" duration-ms="2751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPopUp -->
       </class> <!-- tests.LoginTests -->
     </test> <!-- Login with skip flow -->
-    <test started-at="2022-11-20T21:08:38 IST" name="Login with Google flow" finished-at="2022-11-20T21:09:18 IST" duration-ms="40074">
+    <test started-at="2022-11-20T21:35:53 IST" name="Login with Google flow" finished-at="2022-11-20T21:36:34 IST" duration-ms="40654">
       <class name="tests.LoginTests">
-        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:38 IST" name="setCapabilties" finished-at="2022-11-20T21:08:56 IST" duration-ms="18034" status="PASS">
+        <test-method signature="setCapabilties()[pri:1, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:35:53 IST" name="setCapabilties" finished-at="2022-11-20T21:36:11 IST" duration-ms="18133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCapabilties -->
-        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:56 IST" name="selLanguage" finished-at="2022-11-20T21:08:57 IST" duration-ms="1503" status="PASS">
+        <test-method signature="selLanguage()[pri:2, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:36:11 IST" name="selLanguage" finished-at="2022-11-20T21:36:13 IST" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selLanguage -->
-        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:08:57 IST" name="enterName" finished-at="2022-11-20T21:09:01 IST" duration-ms="4049" status="PASS">
+        <test-method signature="enterName()[pri:3, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:36:13 IST" name="enterName" finished-at="2022-11-20T21:36:17 IST" duration-ms="4898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method signature="selectMonth()[pri:4, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:01 IST" name="selectMonth" finished-at="2022-11-20T21:09:04 IST" duration-ms="2080" status="PASS">
+        <test-method signature="selectMonth()[pri:4, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:36:17 IST" name="selectMonth" finished-at="2022-11-20T21:36:20 IST" duration-ms="2140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMonth -->
-        <test-method signature="signInWithGoogle()[pri:5, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:04 IST" name="signInWithGoogle" finished-at="2022-11-20T21:09:08 IST" duration-ms="4693" status="PASS">
+        <test-method signature="signInWithGoogle()[pri:5, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:36:20 IST" name="signInWithGoogle" finished-at="2022-11-20T21:36:24 IST" duration-ms="4701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInWithGoogle -->
-        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:09:08 IST" name="clickOnPopUp" finished-at="2022-11-20T21:09:18 IST" duration-ms="9698" status="PASS">
+        <test-method signature="clickOnPopUp()[pri:7, instance:tests.LoginTests@4ec4f3a0]" started-at="2022-11-20T21:36:24 IST" name="clickOnPopUp" finished-at="2022-11-20T21:36:34 IST" duration-ms="9402" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OE4CUV9', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.avegen.together.MainAct..., appPackage: com.avegen.together, databaseEnabled: false, desired: {appActivity: com.avegen.together.MainAct..., appPackage: com.avegen.together, deviceName: Mi A3, newCommandTimeout: 60, platformName: android, platformVersion: 11, udid: 6d7cbd627486}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: Mi A3, deviceName: 6d7cbd627486, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: 6d7cbd627486, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 70, takesScreenshot: true, udid: 6d7cbd627486, viewportRect: {height: 1341, left: 0, top: 70, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 91685093-0c68-4f40-a257-ee5bb8142e73
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OE4CUV9', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.avegen.together.MainAct..., appPackage: com.avegen.together, databaseEnabled: false, desired: {appActivity: com.avegen.together.MainAct..., appPackage: com.avegen.together, deviceName: Mi A3, newCommandTimeout: 60, platformName: android, platformVersion: 11, udid: 6d7cbd627486}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: Mi A3, deviceName: 6d7cbd627486, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: 6d7cbd627486, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 70, takesScreenshot: true, udid: 6d7cbd627486, viewportRect: {height: 1341, left: 0, top: 70, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 91685093-0c68-4f40-a257-ee5bb8142e73
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at tests.LoginTests.clickOnPopUp(LoginTests.java:105)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPopUp -->

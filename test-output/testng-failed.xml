@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Login with skip flow(failed)">
-    <groups>
-      <run>
-        <include name="skipFlow"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="tests.LoginTests">
-        <methods>
-          <include name="clickOnPopUp"/>
-        </methods>
-      </class> <!-- tests.LoginTests -->
-    </classes>
-  </test> <!-- Login with skip flow(failed) -->
   <test thread-count="5" name="Login with Google flow(failed)">
     <groups>
       <run>
@@ -25,11 +11,7 @@
     <classes>
       <class name="tests.LoginTests">
         <methods>
-          <include name="selectMonth"/>
-          <include name="selLanguage"/>
           <include name="clickOnPopUp"/>
-          <include name="enterName"/>
-          <include name="signInWithGoogle"/>
         </methods>
       </class> <!-- tests.LoginTests -->
     </classes>

@@ -89,7 +89,7 @@ public class LoginTests {
 				+ "/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout"
 				+ "/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]"
 				+ "/android.widget.LinearLayout")).click();
-		appiumDriver.manage().timeouts().implicitlyWait(9, TimeUnit.SECONDS);
+		appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Test(priority = 6, groups = { "skipFlow" })
