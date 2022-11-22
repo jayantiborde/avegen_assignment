@@ -17,6 +17,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class LoginTests {
 	DesiredCapabilities cap;
 	AppiumDriver<MobileElement> appiumDriver;
+	//local server address
 	static String APPIUM_SERVER_URL = "http://127.0.0.1:4723/wd/hub";
 
 	@Test(priority = 1, groups = { "skipFlow", "googleLoginFlow" })
@@ -31,6 +32,7 @@ public class LoginTests {
 		cap.setCapability("appActivity", "com.avegen.together.MainActivity");
 		URL url = new URL(LoginTests.APPIUM_SERVER_URL);
 		appiumDriver = new AppiumDriver<MobileElement>(url, cap);
+		
 		Thread.sleep(5000);
 		// Setting implicit timeout between 2 actions and redirections in 2 pages
 		appiumDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
@@ -48,6 +50,7 @@ public class LoginTests {
 		// Enter Name
 		appiumDriver.findElement(By.xpath("//android.widget.EditText[@index='2']")).sendKeys("Jayanti More");
 		appiumDriver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "Done"));
+		//appiumDriver.findElement(By.xpath("//android.widget.EditText[@text='Type here']")).click();
 		appiumDriver.findElement(By.xpath("//android.view.ViewGroup[@index='3']//android.view.ViewGroup[@index='3']"))
 				.click();
 	}
@@ -65,7 +68,7 @@ public class LoginTests {
 	public void selectDate() {
 		appiumDriver.findElement(By.xpath("//android.view.ViewGroup[@index='16']")).click();
 		appiumDriver.findElement(By.xpath(
-				"//android.widget.Button[@content-desc=\" Wednesday 23 November 2022 \"]/android.widget.TextView"))
+				"//android.widget.Button[@content-desc=\" Saturday 26 November 2022 \"]/android.widget.TextView"))
 				.click();
 		appiumDriver.findElement(By.xpath("//android.widget.TextView[@text='OK']")).click();
 		appiumDriver.findElement(By.xpath(
@@ -75,10 +78,6 @@ public class LoginTests {
 
 	@Test(priority = 5, groups = { "googleLoginFlow" })
 	public void signInWithGoogle() {
-//		appiumDriver.findElement(By.xpath("//android.widget.EditText[@text='Enter your number']"))
-//				.sendKeys("9172164861");
-//		appiumDriver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "Done"));
-		// click on signIn option
 		appiumDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout"
 				+ "/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout"
 				+ "/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]"
@@ -89,7 +88,7 @@ public class LoginTests {
 				+ "/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout"
 				+ "/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]"
 				+ "/android.widget.LinearLayout")).click();
-		appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		appiumDriver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
 	}
 
 	@Test(priority = 6, groups = { "skipFlow" })
